@@ -11,6 +11,7 @@ bool ParseCmdLine(ArgsObj* Args, int argc, char** argv);
 void PrintUsage(char* BinName)
 {
     printf("\nVegatool %s\n", ATOOL_VERSION);
+    printf("Author: Jean M. Cyr https://github.com/jean-m-cyr");
     printf("Usage: %s [-i GPUIdx | -f VBIOSFile] [Options]\n", BinName);
     printf("Options:\n");
 
